@@ -14,18 +14,20 @@
 ### Environment creation
 On the project directory, run: 
 ```sh
-> pip install -u venv
-> python3 -m venv env
-> 
+> pip install -U venv
+> python -m venv env
 ```
 
 ### Python Environment Execution
 Windows:
 ``` sh
 > env\Scripts\activate.bat
+```
+
 Unix or MacOS:
 ``` sh
 > source env/bin/activate
+```
 
 ### Install dependencies 
 ```sh
