@@ -5,19 +5,17 @@ Module Docstring
 from abc import ABC, abstractmethod
 
 class PredictionModel(ABC):
-    data_train = []
-    data_class = ""
 
-    def __init__(self, value):
-        self.value = value
+    def __init__(self):
+        dataset = None
         super().__init__()
 
     @abstractmethod
-    def fit_data(self, data_train, data_class):
+    def fit_data(self):
         pass
 
     @abstractmethod
-    def predict_data(self, data_test):
+    def predict_data(self):
         pass
 
     @abstractmethod
