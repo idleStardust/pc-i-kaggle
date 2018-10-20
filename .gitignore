@@ -1,16 +1,11 @@
 *
+!/data/breast_cancer_data_set.csv
+!/data/wine_reviews_data_set.csv
 
-!*/data/breast_cancer_data_set.csv
-!*/data/wine_reviews_data_set.csv
-
-!*/docs
-
-!*.py
-!*/kaggle
-!*/test
-
-!*./LICENSE
-!*./MAKEFILE
-!*./README.rst
-!*./requirements.txt
-!*./gitignore
+!/docs
+!/kaggle/**/*.py
+!LICENSE
+!MAKEFILE
+!README.md
+!requirements.txt
+!gitignore

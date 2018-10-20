@@ -1,1 +1,2 @@
-__all__ = ["prediction_model", "random_forest_model"]
+__all__ = ['linear_regression_model', 'neural_network_model', 
+           'prediction_model', 'random_forest_model']
